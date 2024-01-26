@@ -62,7 +62,7 @@ export default function page() {
   }
   return (
     <main className='w-screen min-h-screen bg-blue-900 flex flex-col justify-evenly items-center'>
-      <h1 className='font-mono text-white text-[2rem]'>Choose Defficulties</h1>
+      <h1 className='font-mono text-white text-[8vw] sm:text-[2rem]'>Choose Defficulties</h1>
       <NewGame handleNewGame={handleNewGame}/>
       <Board dataArray={dataArray} handleMainNumbers={handleMainNumbers} copyDataArray={copyDataArray}/>
       <SelectNumber selectArray={selectArray} handleSelectNumber={handleSelectNumber} selectedNumber={selectedNumber}/>

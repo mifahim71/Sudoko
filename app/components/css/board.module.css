@@ -1,0 +1,6 @@
+@media (max-width: 500px) {
+    .MainBoard{
+        background-color: pink;
+        width: 300px;
+    }
+}
