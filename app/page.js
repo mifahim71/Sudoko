@@ -61,7 +61,7 @@ export default function page() {
     setDataArray(CopyDataArray)
   }
   return (
-    <main className='w-screen min-h-screen bg-blue-900 flex flex-col justify-evenly items-center'>
+    <main className='w-screen min-h-screen bg-blue-900 flex flex-col justify-center gap-6 items-center'>
       <h1 className='font-mono text-white text-[8vw] sm:text-[2rem]'>Choose Defficulties</h1>
       <NewGame handleNewGame={handleNewGame}/>
       <Board dataArray={dataArray} handleMainNumbers={handleMainNumbers} copyDataArray={copyDataArray}/>

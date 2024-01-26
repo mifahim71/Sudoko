@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SelectNumber({selectArray, handleSelectNumber, selectedNumber}) {
   return (
-    <div className='w-[82vw] h-[9vw] sm:w-[460px] sm:h-[50px] grid grid-cols-9 border-2 border-white'>
+    <div className='w-[91vw] h-[10vw] sm:w-[460px] sm:h-[50px] grid grid-cols-9 border-2 border-white'>
         {selectArray.map((clickedNumber, i) => <div 
                                                     key={i}
                                                     className='font-mono text-[1.2rem] border-[1px] border-white text-white flex justify-center items-center cursor-pointer'
